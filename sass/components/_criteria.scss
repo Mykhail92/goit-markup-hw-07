@@ -1,0 +1,35 @@
+.criteria {
+  padding: 94px 0;
+}
+.criteria-list {
+  display: flex;
+}
+.criteria-icon {
+  min-width: 270px;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+.criteria-item:not(:last-child) {
+  margin-right: 30px;
+}
+.criteria-header {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondary-header;
+}
+.criteria-paragraf {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

@@ -1,0 +1,34 @@
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+.container.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.logo--white {
+  color: $white-color;
+}
+.footer-adress {
+  font-style: normal;
+  width: 231px;
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $white-color;
+}
+.footer-adress__list {
+  margin-top: 20px;
+}
+.footer-adress__item {
+  margin-top: 9px;
+}
+.footer-adress__contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

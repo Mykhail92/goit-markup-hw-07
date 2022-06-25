@@ -1,0 +1,41 @@
+.clients {
+  padding: 94px 0;
+}
+.clients-header {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  outline: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: $icon-color;
+  transition: color 250ms $hover-time, outline 250ms $hover-time;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    outline-color: $accent-color;
+  }
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-icon {
+  fill: currentColor;
+}

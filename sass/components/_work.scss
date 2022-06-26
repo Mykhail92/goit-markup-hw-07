@@ -1,7 +1,7 @@
 .work {
   padding-bottom: 94px;
 }
-.work-title {
+.work_title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -12,11 +12,11 @@
   color: $secondary-header;
 }
 
-.work-list {
+.work_list {
   display: flex;
   justify-content: center;
 }
-.work-item {
+.work_item {
   text-align: center;
   margin: 0 auto;
   position: relative;
@@ -24,7 +24,7 @@
     margin-right: 30px;
   }
 }
-.work-position {
+.work_position {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -34,7 +34,7 @@
   text-transform: uppercase;
   color: $white-color;
 }
-.work-bcg {
+.work_bcg {
   position: absolute;
   bottom: 0;
   display: flex;

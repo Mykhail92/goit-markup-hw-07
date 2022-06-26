@@ -1,10 +1,10 @@
 .criteria {
   padding: 94px 0;
 }
-.criteria-list {
+.criteria_list {
   display: flex;
 }
-.criteria-icon {
+.criteria_icon {
   min-width: 270px;
   min-height: 120px;
   display: flex;
@@ -13,10 +13,10 @@
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.criteria-item:not(:last-child) {
+.criteria_item:not(:last-child) {
   margin-right: 30px;
 }
-.criteria-header {
+.criteria_header {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -26,7 +26,7 @@
   text-transform: uppercase;
   color: $secondary-header;
 }
-.criteria-paragraf {
+.criteria_paragraf {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

@@ -534,13 +534,13 @@ body {
   padding: 94px 0;
 }
 
-.criteria-list {
+.criteria_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.criteria-icon {
+.criteria_icon {
   min-width: 270px;
   min-height: 120px;
   display: -webkit-box;
@@ -556,11 +556,11 @@ body {
   background-color: #f5f4fa;
 }
 
-.criteria-item:not(:last-child) {
+.criteria_item:not(:last-child) {
   margin-right: 30px;
 }
 
-.criteria-header {
+.criteria_header {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -570,7 +570,7 @@ body {
   color: #212121;
 }
 
-.criteria-paragraf {
+.criteria_paragraf {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -582,7 +582,7 @@ body {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work_title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -592,7 +592,7 @@ body {
   color: #212121;
 }
 
-.work-list {
+.work_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,16 +601,16 @@ body {
           justify-content: center;
 }
 
-.work-item {
+.work_item {
   text-align: center;
   margin: 0 auto;
   position: relative;
 }
-.work-item:not(:last-child) {
+.work_item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-position {
+.work_position {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -621,7 +621,7 @@ body {
   color: #fff;
 }
 
-.work-bcg {
+.work_bcg {
   position: absolute;
   bottom: 0;
   display: -webkit-box;
@@ -667,6 +667,7 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -718,13 +719,15 @@ body {
   width: 44px;
   height: 44px;
   color: #afb1b8;
-  background-color: transparent;
+  background-color: #fff;
   border-radius: 50%;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: transparent;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.networks:hover, .networks:focus {
+.networks:focus, .networks:hover {
   background-color: #2196f3;
+  color: #f5f4fa;
 }
 .networks:not(:last-child) {
   margin-right: 10px;
@@ -732,19 +735,13 @@ body {
 
 .team-networks {
   fill: currentColor;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.networks:hover .team-networks {
-  fill: #fff;
 }
 
 .clients {
   padding: 94px 0;
 }
 
-.clients-header {
+.clients_header {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -753,7 +750,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.clients-list {
+.clients_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -762,7 +759,7 @@ body {
           justify-content: space-between;
 }
 
-.clients-link {
+.clients_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -780,16 +777,16 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-link:hover, .clients-link:focus {
+.clients_link:hover, .clients_link:focus {
   color: #2196f3;
   outline-color: #2196f3;
 }
 
-.clients-item:not(:last-child) {
+.clients_item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-icon {
+.clients_icon {
   fill: currentColor;
 }
 

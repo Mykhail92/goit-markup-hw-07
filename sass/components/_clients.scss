@@ -1,7 +1,7 @@
 .clients {
   padding: 94px 0;
 }
-.clients-header {
+.clients_header {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -10,12 +10,12 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.clients-list {
+.clients_list {
   display: flex;
   justify-content: space-between;
 }
 
-.clients-link {
+.clients_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,9 +33,9 @@
   }
 }
 
-.clients-item:not(:last-child) {
+.clients_item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-icon {
+.clients_icon {
   fill: currentColor;
 }

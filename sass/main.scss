@@ -1,13 +1,14 @@
 @import "./utils/normalize";
 @import "./utils/variables";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/criteria";
-@import "./components/work";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer/footer";
-@import "./components/footer/footer.networks";
-@import "./components/footer/footer.subscription";
-@import "./components/modal";
-@import "./components/portfolio";
+
+@import "./components/mobile/header";
+@import "./components/mobile/hero";
+@import "./components/mobile/criteria";
+@import "./components/mobile/work";
+@import "./components/mobile/team";
+@import "./components/mobile/clients";
+@import "./components/mobile/footer/footer";
+@import "./components/mobile/footer/footer.networks";
+@import "./components/mobile/footer/footer.subscription";
+@import "./components/mobile/modal";
+@import "./components/mobile/portfolio";

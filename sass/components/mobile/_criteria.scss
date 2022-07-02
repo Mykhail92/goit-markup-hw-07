@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+	.criteria {
+		padding: 60px 0;
+		width: 100%;
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+
+.criteria_icon {
+	min-height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	background-color: #f5f4fa;
+}
+@media screen and (max-width: 767px) {
+	.criteria_item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+
+.criteria_header {
+	margin-bottom: 10px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $secondary-header;
+	@media screen and (max-width: 767px) {
+		text-align: center;
+	}
+}
+.criteria_paragraf {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
